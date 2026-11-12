@@ -2,5 +2,16 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  color: #c36060;
 }
 
+.container h1 {
+  font-size: 36px;
+  text-align: center !important;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 18px;
+  text-align: center;
+}
