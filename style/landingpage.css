@@ -39,11 +39,33 @@ img {
 
 }
 
-photo {
-    color: rgb(16, 17, 16);
-    font-size: 1.25rem;
-    text-align: center;
-    padding: 1rem 3rem;
-    border-radius: 69px;
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: rgba(2, 11, 34, 0.87);
+    padding: 15px 30px;
+    margin: 15px;
+
 }
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+
+.nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
 
