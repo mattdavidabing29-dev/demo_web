@@ -10,7 +10,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
   padding: 10px;
-  
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -24,6 +25,13 @@ body {
 img {
   border-radius: 50%; /* make the image circular */
 
+}
+
+.contentframe {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 20px;
 }
 
 .container_1 {
@@ -95,6 +103,39 @@ img {
   font-weight: bold;
 }
 
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: rgba(2, 11, 34, 0.87);
+    padding: 15px 30px;
+    margin: 20px ;
+
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    animation: color-change 0.5s ease-in-out; /* this is a smooth transition effect on hover */
+}
+.nav-links a:hover {
+    color: rgb(143, 64, 64);
+    animation: color-change 0.5s ease-in-out; /* this is a smooth transition effect on hover */
+
+}
+
+
+
 
 
 /* this will fit on mobile screen */
@@ -102,6 +143,12 @@ img {
   .container_1 {
     width: 95%;
     padding: 15px 10px;
+  }
+
+  .dashboard {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
   }
   
   .container_1 h1 {
