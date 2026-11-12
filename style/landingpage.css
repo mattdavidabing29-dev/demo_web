@@ -1,10 +1,18 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: rgba(85, 110, 168, 0.87);
+        padding: 5px;
+
+}
+
+
 #greet {
     color: rgb(16, 17, 16);
     font-size: 1.5rem;
     text-align: center;
-    background-color: rgb(255, 255, 255);
     padding: 1rem 3rem;
-    border-radius: 5px;
+    border-radius: 69px;
 }
 
 #info {
@@ -14,12 +22,18 @@
 
 }
 
+img {
+    border-radius: 99px;
+}
+
 .container {
-    padding: 10px;
+    padding: 0rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(85, 110, 168, 0.87);
+    border-radius: 10px;
+    background: rgba(226, 228, 233, 0.87);
+
 }
 
