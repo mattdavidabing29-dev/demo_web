@@ -9,3 +9,25 @@ body {
     color: rgb(15, 14, 14);
     text-align: center;
 }
+
+.backbtn a {
+    background: rgba(85, 110, 168, 0.87);
+    color: white;
+    width: 90%;
+    max-width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 3px 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.backbtn {
+    text-align: left;
+  background: rgba(85, 110, 168, 0.87);
+  padding: 1rem 1rem;  
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
