@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+
+}
+
+.navigation h1 {
+    color: rgb(15, 14, 14);
+    text-align: center;
+}
