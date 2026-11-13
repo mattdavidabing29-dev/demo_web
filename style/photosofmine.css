@@ -25,7 +25,7 @@ body {
 .navigation {
     background: #ffff;
     border-radius: 6px;
-    padding: 0.5rem 0.6rem;
+    padding: 1rem 0.6rem;
 }
 
 .back-btn a{
@@ -40,4 +40,19 @@ body {
     font-size: 15px;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainframe {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.mainframe img {
+    border-radius: 5%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 10px;
 }
