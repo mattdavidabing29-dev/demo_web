@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    scrollbar-width: none;
 }
 
 body {
@@ -29,10 +30,25 @@ img {
 
 .contentframe {
     display: flex;
-    justify-content: space-between;
+    justify-content: (2fr, 1fr);
     gap: 25px;
     padding: 20px;
+
 }
+
+@keyframes contentframe {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
 
 .container_1 {
   width: 90%;
