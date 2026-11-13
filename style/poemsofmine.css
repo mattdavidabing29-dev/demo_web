@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-body{
-    background: #71685f;
-=======
+
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #71685f;
     padding: 2rem;
 
 }
@@ -11,5 +8,4 @@ body {
 .navigation h1 {
     color: rgb(15, 14, 14);
     text-align: center;
->>>>>>> 0c8bfbe34d17970f4de4f3fb91dde5592e640e57
 }
