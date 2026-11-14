@@ -33,4 +33,20 @@ body {
     font-size: 17px;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+
+.friendsphoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.friendsphoto img { 
+    border-radius: 5%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 10px;
 }
